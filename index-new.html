@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f6f1e8" id="themeColor">
+<title>京都・神户｜7日旅行手册</title>
+<style>
+:root{--bg:#f6f1e8;--card:#fffdf8;--text:#292722;--muted:#777267;--line:#ded5c7;--accent:#a84f3d;--accent2:#336e67;--soft:#eee5d7;--shadow:0 8px 26px rgba(65,50,35,.08)}
+:root[data-theme="dark"]{--bg:#151715;--card:#1f221f;--text:#f5f0e7;--muted:#aaa399;--line:#3b3d39;--accent:#ef927e;--accent2:#78bbb1;--soft:#292d29;--shadow:0 8px 26px rgba(0,0,0,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.62}button,a{font:inherit}.wrap{max-width:920px;margin:auto;padding:16px 14px 70px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:4px 0 14px}.top h1{font-size:23px;margin:0}.theme{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:8px 12px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:17px;margin:13px 0;box-shadow:var(--shadow)}.focus{background:linear-gradient(135deg,var(--card),var(--soft))}.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:800;text-transform:uppercase}.focus h2{font-size:19px;margin:5px 0}.count{font-size:clamp(31px,9vw,58px);font-weight:850;line-height:1.12;letter-spacing:-.04em;margin:12px 0}.count small{font-size:12px;letter-spacing:0;color:var(--muted);margin-right:5px}.meta,.sub{color:var(--muted);font-size:13px}.navbtn,.routebtn{display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:#fff;background:var(--accent2);padding:8px 11px;border-radius:12px;font-size:13px;font-weight:700}.routebtn{background:var(--accent)}h2{font-size:19px;margin:0 0 12px}h3{font-size:17px;margin:0}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{font-size:12px;padding:5px 9px;border-radius:999px;background:var(--soft);color:var(--muted)}.confirmed{color:var(--accent2);font-weight:750}.reserve{color:var(--accent);font-weight:750}.map svg{width:100%;height:auto;display:block}.map text{font-family:inherit;fill:var(--text);font-size:12px}.map .stay{fill:var(--card);stroke:var(--text);stroke-width:1.5}.day{padding:0;overflow:hidden}.day summary{list-style:none;padding:17px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}.day summary::-webkit-details-marker{display:none}.day summary:after{content:"＋";font-size:22px;color:var(--muted)}.day[open] summary:after{content:"−"}.daybody{border-top:1px solid var(--line);padding:0 17px 17px}.daytools{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}.event{display:grid;grid-template-columns:66px 1fr;gap:11px;padding:13px 0;border-bottom:1px dashed var(--line)}.event:last-child{border-bottom:0}.time{font-weight:800;color:var(--accent);font-size:13px}.event p{margin:3px 0}.actions{margin-top:7px}.actions a{margin:0 5px 5px 0}.flex{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.plain{padding-left:20px;margin:7px 0}.plain li{margin:7px 0}.status{font-size:12px;border-radius:999px;padding:3px 8px;background:var(--soft);color:var(--muted)}.warning{border-left:4px solid var(--accent)}.footer{text-align:center;color:var(--muted);font-size:12px;margin-top:22px}@media(max-width:520px){.event{grid-template-columns:57px 1fr}.wrap{padding-left:11px;padding-right:11px}.card{border-radius:17px}.top h1{font-size:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><h1>🇯🇵 京都・大阪・神户｜7日</h1><button class="theme" id="themeBtn" aria-label="切换深浅色">◐ 配色</button></header>
+
+<section class="card focus">
+<div class="eyebrow">此刻关注 · 时间按所在地标注</div>
+<h2 id="nextTitle">正在计算下一项行程…</h2>
+<div class="count" id="countdown">--</div>
+<div class="meta" id="nextMeta">所有事件按绝对时刻计算，跨时区打开不会偏移。</div>
+<div class="actions" id="nextAction"></div>
+</section>
+
+<section class="card map">
+<h2>行程总览</h2>
+<svg viewBox="0 0 760 310" role="img" aria-label="京都、梅田、三田与神户手绘路线图">
+<path d="M70 235 C145 235 145 90 245 92 S350 188 430 154 S555 65 690 88" fill="none" stroke="#d76b55" stroke-width="7" stroke-linecap="round" stroke-dasharray="15 10"/>
+<path d="M245 92 C300 45 365 50 430 154" fill="none" stroke="#5b8f86" stroke-width="7" stroke-linecap="round" stroke-dasharray="12 9"/>
+<path d="M430 154 C500 210 570 235 690 225" fill="none" stroke="#7b72b8" stroke-width="7" stroke-linecap="round" stroke-dasharray="14 9"/>
+<circle cx="70" cy="235" r="10" fill="#d76b55"/><text x="38" y="265">KIX</text>
+<circle cx="245" cy="92" r="10" fill="#d76b55"/><text x="214" y="67">梅田</text>
+<circle cx="430" cy="154" r="10" fill="#5b8f86"/><text x="403" y="183">京都</text>
+<circle cx="690" cy="88" r="10" fill="#d76b55"/><text x="635" y="61">三田奥莱</text>
+<circle cx="690" cy="225" r="10" fill="#7b72b8"/><text x="660" y="257">神户</text>
+<rect class="stay" x="381" y="116" width="86" height="25" rx="8"/><text x="391" y="133">住 3晚</text>
+<rect class="stay" x="643" y="188" width="86" height="25" rx="8"/><text x="653" y="205">住 3晚</text>
+<text x="20" y="22">D1 梅田→京都　D2–3 京都/宇治　D4 三田→神户　D5–7 神户/KIX</text>
+</svg>
+<div class="chips"><span class="chip">D1 珊瑚</span><span class="chip">D2–3 青绿</span><span class="chip">D4–7 紫</span></div>
+</section>
+
+<section class="card">
+<h2>已确认交通与住宿</h2>
+<div class="flex">
+<div><strong>✈️ MU225｜去程</strong><p class="sub">10月5日 09:00 CST 上海浦东 T1<br>12:10 JST 抵达关西 T1</p></div>
+<div><strong>✈️ FM3048｜回程</strong><p class="sub">10月11日 14:20 JST 关西 T1<br>16:10 CST 抵达上海浦东 T1</p></div>
+<div><strong>🏨 The Millennials Kyoto</strong><p class="sub">10月5日入住－10月8日退房<br>235 Yamazakicho, Nakagyo Ward, Kyoto</p><a class="navbtn" href="https://www.google.com/maps/dir/?api=1&destination=The+Millennials+Kyoto" target="_blank">导航</a></div>
+<div><strong>🏨 Minato Hutte Kobe</strong><p class="sub">10月8日入住－10月11日退房<br>4-6-3 Ninomiya-cho, Chuo Ward, Kobe</p><a class="navbtn" href="https://www.google.com/maps/dir/?api=1&destination=Minato+Hutte+Kobe" target="_blank">导航</a></div>
+</div>
+</section>
+
+<div id="days"></div>
+
+<section class="card">
+<h2>待办清单</h2>
+<ul class="plain"><li>退掉原 KIX→京都 HARUKA 车票</li><li>出发前再次确认京都站→神户三田奥特莱斯直达巴士班次并购票</li><li>高岛屋购物前领取游客优惠卡，并核对携程/支付宝/信用卡活动</li><li>高岛屋试 Chanel 泡泡粉底色号及 Warm 眼影盘</li><li>准备每天服用的补剂与药盒</li></ul>
+</section>
+
+<section class="card">
+<h2>购物清单</h2>
+<div class="flex">
+<div><strong>京都</strong><ul class="plain"><li>Chacott MA26</li><li>Chacott MA24</li><li>Chanel 泡泡粉底</li><li>Chanel Warm 眼影盘</li><li>梅干、蒜香白芽梅、梅昆布茶</li><li>七味、舞妓一味、辣椒酱</li><li>玉乃光酒粕及相关商品</li></ul></div>
+<div><strong>神户</strong><ul class="plain"><li>CANMAKE Metalook Mascara 03 Brown（@cosme）</li><li>菁华全洗发水、护发素（Donki）</li><li>Ça Marche 黑芝麻吐司（开门即到）</li><li>Flower Bakery</li><li>春夏＋秋冬吐司（10月10日购买）</li><li>Bakery RIKI（视库存与行李空间）</li></ul></div>
+</div>
+</section>
+
+<section class="card">
+<h2>行李与每日补剂</h2>
+<div class="flex"><div><strong>离家前必查</strong><ul class="plain"><li>护照、信用卡、少量日元</li><li>手机、eSIM、充电器、充电宝</li><li>预约截图、酒店资料、离线网页</li><li>折叠购物袋与行李秤</li></ul></div><div><strong>药盒｜7天＋2天余量</strong><ul class="plain"><li>过敏药</li><li>日常维生素</li><li>肌酸</li><li>橄榄油柠檬汁条包</li><li>常备应急药（保留原包装）</li></ul></div></div>
+</section>
+
+<section class="card warning"><h2>实用提醒</h2><ul class="plain"><li>网页为公开网址，不放确认号、证件号、房间号或二维码。</li><li>D1 落地、入境或交通延误时，优先保留 TAT、bijumam；水果大福和啤酒吧可弹性删减。</li><li>D4 行李随身去奥特莱斯，先确认巴士行李政策及从奥莱前往三宫的末班时间。</li><li>10月11日 14:20 起飞；临空城仅作为时间充裕时的备选，酒水采购不要挤压国际航班值机时间。</li></ul></section>
+<div class="footer">时间均标注 JST（UTC+9）或 CST（UTC+8）｜更新内容后 GitHub Pages 会自动发布</div>
+</div>
+<script>
+const gm=q=>`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(q)}`;
+const route=waypoints=>`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(waypoints.at(-1))}&waypoints=${waypoints.slice(0,-1).map(encodeURIComponent).join('%7C')}&travelmode=transit`;
+const days=[
+{d:'D1',date:'10月5日 周一',title:'关西机场 → 梅田 → 京都',points:['nailshop TAT 梅田本店','Biju mam LUCUA 1100','Kakuozan Fruits Daifuku Benzaiten HERBIS PLAZA ENT','Sapporo Nama Beer Kuro Label THE BAR OSAKA','The Millennials Kyoto','雞翅仙人 京都','FRESCO 寺町店','鸭川 四条大桥'],events:[
+['12:10','✈️ 抵达关西机场 T1','入境、取行李后前往梅田；HARUKA 已不适用于新路线。','Kansai International Airport Terminal 1'],
+['14:10','💅 TAT 梅田本店','目标商品明确，快速购买；最晚不要拖到接近19:00。','nailshop TAT 梅田本店'],
+['14:35','💍 Biju mam','LUCUA 1100 2F，购买目标戒指。','Biju mam LUCUA 1100'],
+['15:05','🍓 水果大福','HERBIS PLAZA ENT 3F；时间不够可删。','Kakuozan Fruits Daifuku Benzaiten HERBIS PLAZA ENT'],
+['15:35','🍺 Sapporo 黑标 THE BAR','LINKS UMEDA 1F，喝一杯即走；不要影响赴京都。','Sapporo Nama Beer Kuro Label THE BAR OSAKA'],
+['17:15','🏨 京都入住','到 The Millennials Kyoto 放行李。','The Millennials Kyoto'],
+['18:30','🍗 鸡翅仙人','保留的第一晚小吃。','雞翅仙人 京都'],
+['19:15','🛒 FRESCO / 鸭川晚餐','买少量寿司、熟食与饮料，在鸭川边坐一会儿；高岛屋/大丸只在有精力时随意逛。','FRESCO 寺町店'] ]},
+{d:'D2',date:'10月6日 周二',title:'伏见稻荷・宇治・下鸭神社',points:['伏见稻荷大社','中村藤吉本店 宇治','平等院','宇治上神社','下鸭神社','河合神社 京都','culotte 京都','玉乃光 京都','炭烧 とり幸 京都'],events:[
+['07:00','⛩️ 伏见稻荷','早到避开人潮，之后乘 JR 奈良线前往宇治。','伏见稻荷大社'],
+['10:30','🍵 中村藤吉本店','抵达宇治后先排抹茶芭菲。','中村藤吉本店 宇治'],
+['12:00','🌿 宇治慢逛','平等院 → 宇治上神社 → 宇治川；回车站途中购买茶类伴手礼。','平等院'],
+['15:00','⛩️ 出町柳一带','鸭川三角洲 → 下鸭神社 → 河合神社。','下鸭神社'],
+['17:00','🍨 culotte','神社后休息；按当天进度灵活调整。','culotte 京都'],
+['18:00','🍶 玉乃光','保留采购酒粕及相关伴手礼。','玉乃光 京都'],
+['20:00','🍗 炭烧 とり幸','已确认预约｜1人。','炭烧 とり幸 京都'] ]},
+{d:'D3',date:'10月7日 周三',title:'三得利・高岛屋・和服陪拍',points:['JR长冈京站','Suntory Kyoto Brewery','京都高岛屋S.C.','Salon de Muge 京都高岛屋','Ookini 清水寺总店','YAKINIKU KINOE 京都'],events:[
+['09:20','🚆 前往长冈京','早餐从简；目标是赶上10:00接驳车。','JR长冈京站'],
+['10:30','🍺 三得利京都工厂','已确认 Tour，10:30–12:00。','Suntory Kyoto Brewery'],
+['13:00','🍵 无碍山房 高岛屋店','抹茶芭菲；随后逛高岛屋食品层与成城石井。','Salon de Muge 京都高岛屋'],
+['13:30','💄 高岛屋快速购物','领游客卡；Chacott MA24/MA26；Chanel 试色。时间紧，伴手礼仅按顺路处理。','京都高岛屋S.C.'],
+['14:30','👘 和服体验','Ookini 清水寺总店，已确认。','Ookini 清水寺总店'],
+['15:30','📷 和服陪拍','15:30–17:30，摄影路线由现场安排。','清水寺'],
+['17:30','↩️ 归还和服','必须在18:00前还衣，不插入其他任务。','Ookini 清水寺总店'],
+['20:00','🥩 YAKINIKU KINOE','已确认预约｜柜台席｜1人。','YAKINIKU KINOE 京都'] ]},
+{d:'D4',date:'10月8日 周四',title:'京都 → 三田奥莱 → 神户',points:['LIGNUM 京都','京都站八条口','Kobe-Sanda Premium Outlets','Minato Hutte Kobe','Kobe Frantz 三宫店','立ち食い 一切れ焼肉 松田','Don Quijote Sannomiya'],events:[
+['08:00','🥐 LIGNUM 早餐','已确认预约｜1人。','LIGNUM 京都'],
+['09:30','🏨 退房并前往京都站','为11:10直达巴士留足时间。','京都站八条口'],
+['11:10','🚌 直达三田奥莱','班次仍须在出发前复核并购票。','Kobe-Sanda Premium Outlets'],
+['12:25','🛍️ 神户三田奥特莱斯','看海与购物为主，购物时长按体力调整。','Kobe-Sanda Premium Outlets'],
+['17:30','🏨 神户入住','抵达三宫后先放行李。','Minato Hutte Kobe'],
+['18:10','🍮 Frantz 魔法之壶布丁','三宫地下街门店；若到得晚则移到后一天。','Kobe Frantz 三宫店'],
+['19:00','🥩 一切れ焼肉 松田','神户第一晚的牛肉体验。','立ち食い 一切れ焼肉 松田'],
+['20:30','🛒 Don Quijote 三宫店','重点购买菁华全洗发水和护发素；24小时店可延后。','Don Quijote Sannomiya'] ]},
+{d:'D5',date:'10月9日 周五',title:'北野・三宫・面包与夜景',points:['Flower Bakery Kobe','L’AVENUE Kobe','Ca marche Kobe','生田神社','Venus Bridge Kobe'],events:[
+['08:30','🥐 北野面包路线','Flower Bakery 必去；L’AVENUE 与 Ça Marche 按营业和排队情况取舍。','Flower Bakery Kobe'],
+['11:30','⛩️ 生田神社','移到今日，避免奥莱日赶场。','生田神社'],
+['13:00','🍜 午餐候选','力二蟹 Crab Noodle；如排队过长则现场更换。','力二蟹 Crab Noodle 神户'],
+['15:00','💄 三宫自由逛','@cosme 看 CANMAKE Metalook Mascara 03 Brown；也可直接找附近 Starbucks 休息。','@cosme STORE 神户'],
+['18:00','🌃 Venus Bridge','看天气决定；夜景为神户明确想去的景点。','Venus Bridge Kobe'],
+['20:00','🍽️ 晚餐留白','Bar Ciccia 已确认不接待1人；现场按心情选择。','三宫站'] ]},
+{d:'D6',date:'10月10日 周六',title:'元町・港区・回国前采购',points:['Bakery RIKI Kobe','食ぱんの店 春夏＋秋冬 神户','南京町 神户','Meriken Park','Harborland Kobe'],events:[
+['08:30','🥖 面包采购','春夏＋秋冬放倒数第二天购买；Bakery RIKI 视库存与行李空间。','食ぱんの店 春夏＋秋冬 神户'],
+['11:00','🏮 元町・南京町','自由散步，不强制打卡。','南京町 神户'],
+['13:00','🍽️ 午餐留白','按当天面包与甜品摄入决定，避免为了餐厅赶路。','元町站 神户'],
+['15:00','🌊 港区散步','Meriken Park → Harborland；Rond Sucré / anthem 二选一或都跳过。','Meriken Park'],
+['18:30','🍽️ 晚餐自由','地鱼屋台等作为备选；保留最后一晚的随机性。','三宫站'] ]},
+{d:'D7',date:'10月11日 周日',title:'神户 → 关西机场 → 上海',points:['Minato Hutte Kobe','Kansai International Airport Terminal 1'],events:[
+['08:00','🧳 退房准备','检查护照、购物品、液体和托运行李。','Minato Hutte Kobe'],
+['09:00','🚆 前往关西机场','国际航班预留充足时间；不要先去大阪市区。','Kansai International Airport Terminal 1'],
+['11:15','🛒 机场/临空城采购','酒水为优先；只有时间明显充裕才去临空城。','Kansai International Airport Terminal 1'],
+['14:20','✈️ FM3048 回上海','关西 T1 起飞，16:10 CST 抵达浦东 T1。','Kansai International Airport Terminal 1'] ]}
+];
+const container=document.getElementById('days');
+days.forEach((x,i)=>{const el=document.createElement('details');el.className='card day';if(i===0)el.open=true;el.innerHTML=`<summary><div><span class="eyebrow">${x.d} · ${x.date}</span><h3>${x.title}</h3></div></summary><div class="daybody"><div class="daytools"><a class="routebtn" href="${route(x.points)}" target="_blank">全天多点导航</a><span class="status">路线可按现场删减</span></div>${x.events.map(e=>`<div class="event"><div class="time">${e[0]} JST</div><div><strong>${e[1]}</strong><p class="sub">${e[2]}</p><div class="actions"><a class="navbtn" href="${gm(e[3])}" target="_blank">导航</a></div></div></div>`).join('')}</div>`;container.appendChild(el)});
+const itinerary=[];days.forEach(x=>x.events.forEach(e=>itinerary.push({t:`2026-${x.date.startsWith('10月')?'10':''}-${String(parseInt(x.date.match(/月(\d+)日/)[1])).padStart(2,'0')}T${e[0]}:00+09:00`,title:e[1],meta:`${x.d} · ${x.date} · ${e[2]}`,place:e[3]})));
+itinerary.unshift({t:'2026-10-05T09:00:00+08:00',title:'✈️ MU225 上海浦东起飞',meta:'D1 · 10月5日 周一 · 中国标准时间 CST（UTC+8）',place:'Shanghai Pudong International Airport Terminal 1'});
+function updateFocus(){const now=Date.now();const next=itinerary.map(x=>({...x,ms:Date.parse(x.t)})).filter(x=>x.ms>now).sort((a,b)=>a.ms-b.ms)[0];const title=document.getElementById('nextTitle'),cd=document.getElementById('countdown'),meta=document.getElementById('nextMeta'),act=document.getElementById('nextAction');if(!next){title.textContent='旅程已结束';cd.textContent='期待下一次出发';meta.textContent='';act.innerHTML='';return}const diff=next.ms-now,d=Math.floor(diff/86400000),h=Math.floor(diff%86400000/3600000),m=Math.floor(diff%3600000/60000),s=Math.floor(diff%60000/1000);title.textContent=next.title;cd.innerHTML=`<small>还有</small>${d}<small>天</small> ${String(h).padStart(2,'0')}<small>时</small> ${String(m).padStart(2,'0')}<small>分</small> ${String(s).padStart(2,'0')}<small>秒</small>`;meta.textContent=next.meta;act.innerHTML=`<a class="navbtn" target="_blank" href="${gm(next.place)}">前往导航</a>`}
+setInterval(updateFocus,1000);updateFocus();
+const root=document.documentElement,btn=document.getElementById('themeBtn'),tc=document.getElementById('themeColor');function setTheme(t){root.dataset.theme=t;localStorage.setItem('trip-theme',t);tc.content=t==='dark'?'#151715':'#f6f1e8'}const saved=localStorage.getItem('trip-theme');setTheme(saved||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));btn.onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark');
+</script>
+</body></html>
